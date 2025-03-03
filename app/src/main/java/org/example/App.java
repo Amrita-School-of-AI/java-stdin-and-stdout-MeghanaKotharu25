@@ -1,6 +1,6 @@
 package org.example;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class App {
 
@@ -10,8 +10,6 @@ public class App {
         int b = scan.nextInt();
         int c = scan.nextInt();
 
-        scan.close();
-        
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
